@@ -1,0 +1,48 @@
+@font-face {
+  font-family: Simpsons;
+  src: url(../fonts/Homer_Simpson_Revised.ttf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Simpsons;
+}
+.hole {
+  position: absolute;
+  object-fit: cover;
+  object-position: 100% 100%;
+  background-repeat: no-repeat;
+  cursor: cell;
+}
+@keyframes summonCharacter {
+  0% {
+  }
+  100% {
+    height: 100%;
+    display: inline;
+  }
+}
+@keyframes deleteCharacter {
+  0% {
+  }
+  100% {
+    height: 0%;
+    display: none;
+  }
+}
+.character {
+  object-fit: cover;
+  object-position: 50% 0%;
+  width: 80%;
+  height: 0%;
+  position: absolute;
+  bottom: 40%;
+  left: 25%;
+}
+#particles-js {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
