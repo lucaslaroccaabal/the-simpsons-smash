@@ -3,30 +3,30 @@
     "name": "Homer",
     "value": 20,
     "timeActive": 6,
-    "img": "/images/homer.png"
+    "img": "images/homer.png"
   },
   "2": {
     "name": "Bart",
     "value": 30,
     "timeActive": 4,
-    "img": "/images/bart.png"
+    "img": "images/bart.png"
   },
   "3": {
     "name": "Lisa",
     "value": 30,
     "timeActive": 4,
-    "img": "/images/lisa.png"
+    "img": "images/lisa.png"
   },
   "4": {
     "name": "Marge",
     "value": -50,
     "timeActive": 40,
-    "img": "/images/marge.png"
+    "img": "images/marge.png"
   },
   "5": {
     "name": "Maggie",
     "value": 100,
     "timeActive": 2,
-    "img": "/images/maggie.png"
+    "img": "images/maggie.png"
   }
 }
