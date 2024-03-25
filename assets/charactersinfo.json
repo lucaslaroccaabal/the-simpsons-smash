@@ -2,31 +2,49 @@
   "1": {
     "name": "Homer",
     "value": 20,
-    "timeActive": 6,
-    "img": "images/homer.png"
+    "valueAgainst": 40,
+    "timeActive": 8,
+    "img": "images/homer.png",
+    "probability": 9
   },
   "2": {
     "name": "Bart",
     "value": 30,
-    "timeActive": 4,
-    "img": "images/bart.png"
+        "valueAgainst": 40,
+    "timeActive": 6,
+    "img": "images/bart.png",
+    "probability": 5  
   },
   "3": {
     "name": "Lisa",
     "value": 30,
-    "timeActive": 4,
-    "img": "images/lisa.png"
+        "valueAgainst": 40,
+    "timeActive": 6,
+    "img": "images/lisa.png",
+    "probability": 5
   },
   "4": {
     "name": "Marge",
-    "value": -50,
-    "timeActive": 40,
-    "img": "images/marge.png"
+    "value": 20,
+        "valueAgainst": 40,
+    "timeActive": 8,
+    "img": "images/marge.png",
+    "probability": 9
   },
   "5": {
     "name": "Maggie",
-    "value": 100,
-    "timeActive": 2,
-    "img": "images/maggie.png"
+    "value": -50,
+    "valueAgainst": 0,
+    "timeActive": 8,
+    "img": "images/maggie.png",
+    "probability": 4
+  },
+    "6": {
+    "name": "Barnes",
+    "value": 80,
+    "valueAgainst": 50,
+    "timeActive": 5,
+    "img": "images/burns.png",
+    "probability": 1
   }
 }

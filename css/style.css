@@ -35,11 +35,11 @@
 .character {
   object-fit: cover;
   object-position: 50% 0%;
-  width: 80%;
   height: 0%;
   position: absolute;
-  bottom: 40%;
-  left: 25%;
+  width: 45%;
+  bottom: 30%;
+  left: 35%;
 }
 #particles-js {
   height: 100%;

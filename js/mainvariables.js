@@ -1,3 +1,3 @@
 let holes = [];
-let score = 0;
-let gameSpeed = 500;
+let score = 50;
+let gameSpeed = 800;

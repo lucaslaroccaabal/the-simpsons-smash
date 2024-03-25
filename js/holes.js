@@ -1,5 +1,5 @@
 const holeProperties = {
-  width: 5,
+  width: 6,
   height: 6,
   margin: 3,
 };
@@ -48,17 +48,26 @@ function generateHoles() {
     draw.classList.add("hole");
     draw.style.width = `${holeToDraw.width}%`;
     draw.style.height = `${holeToDraw.height}%`;
-    draw.style.minWidth = `30px`;
+    draw.style.minWidth = `50px`;
     draw.style.left = `${holeToDraw.x}%`;
     draw.style.top = `${holeToDraw.y}%`;
     const holeImg = document.createElement("img");
     holeImg.src = "./images/hole.png";
     holeImg.style.width = "100%";
     holeImg.style.height = "100%";
+    const span = document.createElement("span");
+    span.innerText = "0";
+    span.style.display = "none";
+    span.style.width = "100%";
+    span.style.height = "100%";
+    span.style.position = "absolute";
+    span.style.inset = "0";
+    span.style.fontSize = "2rem";
     const characterImg = document.createElement("img");
     characterImg.classList.add("character");
     draw.appendChild(holeImg);
     draw.appendChild(characterImg);
+    draw.appendChild(span);
     gameDiv.appendChild(draw);
   });
   return holes;
