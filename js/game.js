@@ -28,10 +28,11 @@ function gameOver(gameLoop, time, timeCounter) {
   } else {
     divStart.children[0].innerText = `Tiempo: ${time._data.minutes}:${time._data.seconds}`;
   }
-  divStart.style.display = "inline-block";
+  divStart.style.display = "flex";
   divStart.children[1].remove();
+  divStart.children[divStart.children.length - 1].remove();
   divStart.children[1].innerText = `Volver Al Menú`;
-  divStart.children[1].style.justifySelf = "center";
+
   divStart.children[1].addEventListener("click", () =>
     window.location.reload()
   );

@@ -4,6 +4,7 @@ divStart.innerHTML = `
 <h1 class="text-8xl font-bold text-yellow-500 text-center" >The Simpsons Smash!</h1>
 <p class="text-2xl font-semibold text-center" >Golpea a  los personajes y suma puntos!</p>
 <button id="playButton" class="text-center bg-gradient-to-br from-yellow-600 to-yellow-400 font-bold rounded-lg px-3 ">Jugar</button>
+<h3> Cuidado! no golpees a Maggie! <img class="w-5 inline" src="images/maggie.png"></h3>
 `;
 divStart.classList.add(
   "flex",
